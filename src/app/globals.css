@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-fade-in: fade-in 0.3s ease-in-out;
+  --animate-infinite-scroll: infinite-scroll linear infinite;
+  --animate-infinite-scroll-reverse: infinite-scroll-reverse linear infinite;
+  --breakpoint-lgx: 1100px;
+  --breakpoint-mdx: 900px;
+  --breakpoint-smx: 578px;
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes infinite-scroll {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes infinite-scroll-reverse {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
