@@ -82,8 +82,8 @@ export const pt = {
         href: "#waitlist",
       },
       requestDemo: {
-        title: "Comece agora",
-        href: "https://vocaliza-frontend.vercel.app/sign-up",
+        title: "Solicitar uma Demonstração",
+        href: "#waitlist",
       },
     },
     benefits: ["Sem cartão de crédito necessário", "Teste grátis de 14 dias"],
