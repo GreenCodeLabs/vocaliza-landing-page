@@ -77,8 +77,8 @@ export const en = {
         href: "#waitlist",
       },
       requestDemo: {
-        title: "Request demo",
-        href: "#waitlist",
+        title: "Start now",
+        href: "https://vocaliza-frontend.vercel.app/sign-up",
       },
     },
     benefits: ["No credit card required", "14-day free trial"],
